@@ -1,6 +1,6 @@
 # Point cloud quality enhancement based on deep learning
 
-The updated papers about the quality enhancement of point clouds, including three topics:
+The updated papers about the deep learning-based point cloud quality enhancement, including three topics:
 
 - point cloud completion 
 
