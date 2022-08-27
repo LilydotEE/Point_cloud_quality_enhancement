@@ -10,17 +10,22 @@ The updated papers about the quality enhancement of point clouds, including thre
 
 
 
-## Point cloud completion
+## **Point cloud completion**
 
-[1]  title (conference 20xx) [[paper](http://baidu.com)] [[code]()]
+- ### Voxel-based methods
+
+[1] VConv-DAE: Deep Volumetric Shape Learning Without Object Labels (ECCV 2016) [[paper](https://arxiv.org/abs/1604.03755)] [[code](https://github.com/Not-IITian/VCONV-DAE)]
 
 [2]
 
-## Point cloud up-sampling/super resolution
+- ### Point-based methods
+
+## **Point cloud up-sampling/super resolution**
 
 [1]
 
-## Point cloud denoising
+## **Point cloud denoising**
 
 [1]
+
 
