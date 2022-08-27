@@ -25,7 +25,20 @@ Global Structure and Local Geometry Inference (ICCV 2017) [[paper](https://arxiv
 
 [5] Learning 3D Shape Completion from Laser Scan Data with Weak Supervision [[paper](https://arxiv.org/abs/1805.07290)] [[code](https://github.com/davidstutz/cvpr2018-shape-completion)]
 
+[6] Point-Voxel CNN for Efficient 3D Deep Learning (NeurIPS 2019) [[Paper](https://arxiv.org/abs/1907.03739)] [[Code](https://github.com/mit-han-lab/pvcnn)]
+
 - ### Point-based methods
+
+[1] A Papier-Mˆach´e Approach to Learning 3D Surface Generation (CVPR 2018) [[Paper](https://arxiv.org/abs/1802.05384)] [[Code](https://github.com/ThibaultGROUEIX/AtlasNet)]
+
+[2] PCN: Point Completion Network (3DV 2018) [[Paper](https://arxiv.org/abs/1808.00671)] [[Code](https://github.com/wentaoyuan/pcn)]
+
+[3] RL-GAN-Net: A Reinforcement Learning Agent Controlled GAN Network for
+Real-Time Point Cloud Shape Completion (CVPR 2019) [[Paper](https://arxiv.org/abs/1904.12304)] [[Code](https://github.com/iSarmad/RL-GAN-Net)]
+
+[4] TopNet: Structural Point Cloud Decoder (CVPR 2019) [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Tchapmi_TopNet_Structural_Point_Cloud_Decoder_CVPR_2019_paper.pdf)] [[Code](https://github.com/lynetcha/completion3d)]
+
+[5]
 
 ## **Point cloud up-sampling/super resolution**
 
