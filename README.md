@@ -1,4 +1,4 @@
-# Point cloud quality enhancement
+# Point cloud quality enhancement based on deep learning
 
 The updated papers about the quality enhancement of point clouds, including three topics:
 
