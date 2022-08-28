@@ -49,29 +49,45 @@ Real-Time Point Cloud Shape Completion (CVPR 2019) [[Paper](https://arxiv.org/ab
 - ### CNN-based methods
 
 [1] PU-Net: Point Cloud Upsampling Network (CVPR 2018) [[Paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yu_PU-Net_Point_Cloud_CVPR_2018_paper.pdf)] [[Code](https://github.com/yulequan/PU-Net)]
+
 [2] EC-Net: an Edge-aware Point set Consolidation Network (ECCV 2018) [[Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Lequan_Yu_EC-Net_an_Edge-aware_ECCV_2018_paper.pdf)] [[Code](https://yulequan.github.io/ec-net/index.html)]
+
 [3] Patch-based Progressive 3D Point Set Upsampling (CVPR 2019) [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Yifan_Patch-Based_Progressive_3D_Point_Set_Upsampling_CVPR_2019_paper.pdf)] [[Code](https://github.com/yifita/3pu)]
+
 [4] PUGeo-Net: A Geometry-centric Network for 3D Point Cloud Upsampling (ECCV 2020) [[Paper](https://arxiv.org/pdf/2002.10277)] [[Code](https://github.com/ninaqy/PUGeo)]
+
 [5] Point Cloud Upsampling via Disentangled Refinement (CVPR 2021) [[Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Point_Cloud_Upsampling_via_Disentangled_Refinement_CVPR_2021_paper.pdf)] [[Code](https://github.com/liruihui/Dis-PU)]
+
 [6] Sequential Point Cloud Upsampling by Exploiting Multi-Scale Temporal Dependency (IEEE TCSVT 2021) [[Paper](https://ieeexplore.ieee.org/abstract/document/9512063)] 
+
 [7] SSPU-Net: Self-Supervised Point Cloud Upsampling via Differentiable Rendering (ACM MM 2021) [[Paper](https://arxiv.org/pdf/2108.00454)] [[Code](https://github.com/fpthink/SSPU-Net)]
+
 [8] Progressive Point Cloud Upsampling via Differentiable Rendering (IEEE TCSVT 2021) [[Paper](https://ieeexplore.ieee.org/abstract/document/9496619)] 
+
 [9] Density-imbalance-eased LiDAR Point Cloud Upsampling via Feature Consistency Learning (IEEE TIV 2022) [[Paper](https://ieeexplore.ieee.org/abstract/document/9743721)]
+
 [10] VPU: A Video-based Point Cloud Upsampling Framework (IEEE TIP 2022) [[Paper](https://ieeexplore.ieee.org/document/9759233)]
 
 - ### GCN-based methods
 
 [1] Meta-PU: An Arbitrary-Scale Upsampling Network for Point Cloud (IEEE TVCG 2021) [[Paper](https://arxiv.org/pdf/2102.04317)] [[Code](https://github.com/pleaseconnectwifi/Meta-PU)]
+
 [2] PU-GCN: Point Cloud Upsampling using Graph Convolutional Networks (CVPR 2021) [[Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Qian_PU-GCN_Point_Cloud_Upsampling_Using_Graph_Convolutional_Networks_CVPR_2021_paper.pdf)] [[Code](https://github.com/guochengqian/PU-GCN)]
+
 [3] Deep Magnification-Flexible Upsampling Over 3D Point Clouds (IEEE TIP 2021) [[Paper](https://arxiv.org/pdf/2011.12745)] [[Code](https://github.com/ninaqy/Flexible-PU)]
+
 [4] PU-EVA: An Edge-Vector based Approximation Solution for Flexible-scale Point Cloud Upsampling (CVPR 2021) [[Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Luo_PU-EVA_An_Edge-Vector_Based_Approximation_Solution_for_Flexible-Scale_Point_Cloud_ICCV_2021_paper.pdf)]
+
 [5] Semantic Point Cloud Upsampling (IEEE TMM 2022) [[Paper](https://ieeexplore.ieee.org/document/9738472)] [[Code](https://github.com/lizhuangzi/SPU)]
+
 [6] PU-Flow: a Point Cloud Upsampling Network with Normalizing Flows (IEEE TVCG 2022) [[Paper](https://ieeexplore.ieee.org/document/9738472)] [[Code](https://github.com/lizhuangzi/SPU)]
 
 - ### GAN-based methods
 
 [1] PU-GAN: A Point Cloud Upsampling Adversarial Network (ICCV 2019) [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_PU-GAN_A_Point_Cloud_Upsampling_Adversarial_Network_ICCV_2019_paper.pdf)] [[Code](https://liruihui.github.io/publication/PU-GAN/)]
+
 [2] Point cloud super-resolution based on geometric constraints (IET Computer Vision) [[Paper](https://ietresearch.onlinelibrary.wiley.com/doi/pdfdirect/10.1049/cvi2.12045)]
+
 [3] PU-Refiner: A Geometry Refiner with Adversarial Learning for Point Cloud Upsampling (ICASSP 2022) [[Paper](https://ieeexplore.ieee.org/abstract/document/9746373)] [[Code](https://github.com/liuhaoyun/PU-Refiner)]
 
 ## **Point cloud denoising**
