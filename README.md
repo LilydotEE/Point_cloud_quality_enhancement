@@ -96,17 +96,27 @@ Real-Time Point Cloud Shape Completion (CVPR 2019) [[Paper](https://arxiv.org/ab
 ### Encoder-Decoder based methods
 
 [1] 3D Shape Processing by Convolutional Denoising Autoencoders on Local Patches (WACV 2018)[[Paper](https://www.computer.org/csdl/proceedings-article/wacv/2018/488601b925/12OmNwJgAJQ)]
+
 [2] 3D Point Cloud Denoising via Deep Neural Network based Local Surface Estimation (ICASSP2019) [[Paper](https://arxiv.org/abs/1904.04427)] [[Code](https://github.com/chaojingduan/Neural-Projection)] 
+
 [3] Total Denoising: Unsupervised Learning of 3D Point Cloud Cleaning (ICCV 2019) [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Hermosilla_Total_Denoising_Unsupervised_Learning_of_3D_Point_Cloud_Cleaning_ICCV_2019_paper.pdf)] [[Code](https://github.com/phermosilla/TotalDenoising)] 
+
 [4] Pointfilter: Point Cloud Filtering via Encoder-Decoder Modeling (IEEE TVCG 2020) [[Paper](https://ieeexplore.ieee.org/document/9207844)] [[Code](http://github.com/dongbo-BUAA-VR/Pointfilter)] 
+
 [5] Differentiable Manifold Reconstruction for Point Cloud Denoising (ACM MM 2020) [[Paper](https://arxiv.org/abs/2007.13551)] [[Code](https://github.com/luost26/DMRDenoise)] 
+
 [6] Reflective Noise Filtering of Large-Scale Point Cloud Using Transformer (Remote Sens 2022) [[Paper](https://www.mdpi.com/2072-4292/14/3/577)]
 
 ### Others
 [1] PointCleanNet: Learning to Denoise and Remove Outliers from Dense Point Clouds (ComputGraphForum 2020) [[Paper](https://arxiv.org/abs/1901.01060v2)] [[Code](https://github.com/mrakotosaon/pointcleannet)] 
+
 [2] Learning Graph-Convolutional Representations for Point Cloud Denoising (ECCV 2020) [[Paper](https://arxiv.org/abs/2007.02578v1)] [[Code](https://github.com/diegovalsesia/GPDNet)] 
+
 [3] Learning Robust Graph-Convolutional Representations for Point Cloud Denoising (IEEE JSTSP) [[Paper](https://ieeexplore.ieee.org/document/9309029)]
+
 [4] Score-Based Point Cloud Denoising (ICCV 2021) [[Paper](https://ieeexplore.ieee.org/document/9711416)] [[Code](https://github.com/luost26/score-denoise)] 
+
 [5] RePCD-Net: Feature-Aware Recurrent Point Cloud Denoising Network (IJCV2022) [[Paper](https://link.springer.com/article/10.1007/s11263-021-01564-7)]
+
 [6] Deep Point Set Resampling via Gradient Fields (TPAMI 2022) [[Paper](https://arxiv.org/abs/2111.02045)]
 
