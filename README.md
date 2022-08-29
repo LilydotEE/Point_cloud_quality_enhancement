@@ -29,71 +29,109 @@ Global Structure and Local Geometry Inference (ICCV 2017) [[Paper](https://arxiv
 
 [7] GRNet: Gridding Residual Network for Dense Point Cloud Completion (ECCV 2020) [[Paper](https://arxiv.org/abs/2006.03761)] [[Code](https://github.com/hzxie/GRNet)]
 
+[8] Voxel-based Network for Shape Completion by Leveraging Edge Generation (ICCV 2021) [[Paper](https://ieeexplore.ieee.org/document/9710071)] [[Code](https://github.com/xiaogangw/VE-PCN)]
+
 
 - ### Point-based methods
 
-[1] A Papier-Mˆach´e Approach to Learning 3D Surface Generation (CVPR 2018) [[Paper](https://arxiv.org/abs/1802.05384)] [[Code](https://github.com/ThibaultGROUEIX/AtlasNet)]
+- #### Encoder-Decoder based
 
-[2] PCN: Point Completion Network (3DV 2018) [[Paper](https://arxiv.org/abs/1808.00671)] [[Code](https://github.com/wentaoyuan/pcn)]
+- ##### Encoder-Deocder-Common Structure
+[1] PCN: Point Completion Network (3DV 2018) [[Paper](https://arxiv.org/abs/1808.00671)] [[Code](https://github.com/wentaoyuan/pcn)]
 
-[3] RL-GAN-Net: A Reinforcement Learning Agent Controlled GAN Network for
+[2] TopNet: Structural Point Cloud Decoder (CVPR 2019) [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Tchapmi_TopNet_Structural_Point_Cloud_Decoder_CVPR_2019_paper.pdf)] [[Code](https://github.com/lynetcha/completion3d)]
+
+[3] Morphing and Sampling Network for Dense Point Cloud Completion (AAAI 2020) [[Paper](https://arxiv.org/abs/1912.00280)] [[Code](https://github.com/Colin97/MSN-Point-Cloud-Completion)]
+
+[4] Multi-stage point completion network with critical set supervision (Computer Aided Geometric Design 2020) [[Paper](https://www.sciencedirect.com/science/article/pii/S0167839620301126?via%3Dihub)]
+
+[5] Point Cloud Completion by Skip-attention Network with Hierarchical Folding (CVPR 2020) [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wen_Point_Cloud_Completion_by_Skip-Attention_Network_With_Hierarchical_Folding_CVPR_2020_paper.pdf)] 
+
+[6] ASHF-Net: Adaptive Sampling and Hierarchical Folding Network for Robust Point Cloud Completion (AAAI 2020) [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/16478/16285)] 
+
+[7] Ecg: Edge-aware point cloud completion with graph convolution (IEEE Robotics and Automation Letters 2020) [[Paper](https://ieeexplore.ieee.org/document/9093117)] [[Code](https://github.com/paul007pl/ECG)]
+
+[8] Learn the 3d object shape completion of point cloud neighborhood information (IEEE Robotics and Automation Letters 2020) [[Paper](http://qikan.cqvip.com/Qikan/Article/Detail?id=7107097755)]
+
+[9] SoftPoolNet: Shape Descriptor for Point Cloud Completion and Classification (ECCV 2020) [[Paper](https://arxiv.org/abs/2008.07358)] [[Code](https://github.com/wangyida/softpool)]
+
+[10] SAUM: Symmetry-aware upsampling module for consistent point cloud completion (ACCV 2020) [[Paper](https://openaccess.thecvf.com/content/ACCV2020/papers/Son_SAUM_Symmetry-Aware_Upsampling_Module_for_Consistent_Point_Cloud_Completion_ACCV_2020_paper.pdf)] [[Code](https://github.com/countywest/SAUM)]
+
+[11] FinerPCN: High fidelity point cloud completion network using pointwise convolution (Neurocomputing 2021) [[Paper](https://www.sciencedirect.com/science/article/pii/S0925231221010109?via%3Dihub)] [[Code](https://github.com/Colin97/MSN-Point-Cloud-Completion)]
+
+[12] PCTMA-Net: Point cloud transformer with morphing atlas-based point generation network for dense point cloud completion (IROS 2021) [[Paper](https://ieeexplore.ieee.org/document/9636483)] 
+
+[13] PoinTr: Diverse Point Cloud Completion with Geometry-Aware Transformers (ICCV 2021) [[Paper](https://arxiv.org/abs/2108.08839)] [[Code](https://github.com/yuxumin/PoinTr)]
+
+[14] Cross-Regional Attention Network for Point Cloud Completion (ICPR 2021) [[Paper](https://ieeexplore.ieee.org/document/9413104)] [[Code](https://github.com/paul007pl/ECG)]
+
+[15] Variational Relational Point Completion Network (CVPR 2021) [[Paper](https://arxiv.org/abs/2104.10154)] [[Code](https://github.com/paul007pl/VRCNet)]
+
+[16] ASFM-Net: Asymmetrical Siamese Feature Matching Network for Point Completion (ACM MM 2021) [[Paper](https://arxiv.org/abs/2104.09587)] [[Code](https://github.com/Yan-Xia/ASFM-Net)]
+
+[17] RFNet: Recurrent Forward Network for Dense Point Cloud Completion (ICCV 2021) [[Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Huang_RFNet_Recurrent_Forward_Network_for_Dense_Point_Cloud_Completion_ICCV_2021_paper.pdf)] 
+
+[18] Relationship-based point cloud completion (TVCG 2021) [[Paper](https://ieeexplore.ieee.org/document/9528986)]
+
+[19] Temporal Point Cloud Completion with Pose Disturbance (IEEE Robotics and Automation Letters 2022) [[Paper](https://ieeexplore.ieee.org/document/9695368)]
+
+[20] Mutual Information Maximization based Similarity Operation for 3D Point Cloud Completion Network (SPL 2022) [[Paper](https://ieeexplore.ieee.org/document/9741313)]
+
+[21] Learning a Structured Latent Space for Unsupervised Point Cloud Completion (CVPR 2022) [[Paper](https://arxiv.org/abs/2203.15580)]
+
+[22] Learning Local Displacements for Point Cloud Completion (CVPR 2022) [[Paper](https://arxiv.org/abs/2203.16600)] [[Code](https://github.com/wangyida/disp3d)]
+
+[23] LAKe-Net: Topology-Aware Point Cloud Completion by Localizing Aligned Keypoints (CVPR 2022) [[Paper](https://arxiv.org/abs/2203.16771)]
+
+- ##### Encoder-Decoder-GAN
+[1] RL-GAN-Net: A Reinforcement Learning Agent Controlled GAN Network for
 Real-Time Point Cloud Shape Completion (CVPR 2019) [[Paper](https://arxiv.org/abs/1904.12304)] [[Code](https://github.com/iSarmad/RL-GAN-Net)]
 
-[4] TopNet: Structural Point Cloud Decoder (CVPR 2019) [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Tchapmi_TopNet_Structural_Point_Cloud_Decoder_CVPR_2019_paper.pdf)] [[Code](https://github.com/lynetcha/completion3d)]
+[2] Unpaired Point Cloud Completion on Real Scans using Adversarial Training (ICLR 2020) [[Paper](https://arxiv.org/abs/1904.00069)] [[Code](https://github.com/xuelin-chen/pcl2pcl-gan-pub)]
 
-[5] Morphing and Sampling Network for Dense Point Cloud Completion (AAAI 2020) [[Paper](https://arxiv.org/abs/1912.00280)] [[Code](https://github.com/Colin97/MSN-Point-Cloud-Completion)]
+[3] Cascaded Refinement Network for Point Cloud Completion (CVPR 2020) [[Paper](https://arxiv.org/abs/2004.03327)] [[Code](https://github.com/xiaogangw/cascaded-point-completion)]
 
-[6] Unpaired Point Cloud Completion on Real Scans using Adversarial Training (ICLR 2020) [[Paper](https://arxiv.org/abs/1904.00069)] [[Code](https://github.com/xuelin-chen/pcl2pcl-gan-pub)]
+[4] Point cloud completion by learning shape priors (IROS 2020) [[Paper](https://arxiv.org/abs/2008.00394)] [[Code](https://github.com/xiaogangw/point-cloud-completion-shape-prior)]
 
-[7] Point Cloud Completion by Skip-attention Network with Hierarchical Folding (CVPR 2020) [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wen_Point_Cloud_Completion_by_Skip-Attention_Network_With_Hierarchical_Folding_CVPR_2020_paper.pdf)] 
+[5] PF-Net: Point Fractal Network for 3D Point Cloud Completion (CVPR 2020) [[Paper](https://arxiv.org/abs/2003.00410)] [[Code](https://github.com/zztianzz/PF-Net-Point-Fractal-Network)]
 
-[8] PF-Net: Point Fractal Network for 3D Point Cloud Completion (CVPR 2020) [[Paper](https://arxiv.org/abs/2003.00410)] [[Code](https://github.com/zztianzz/PF-Net-Point-Fractal-Network)]
+[6] Dense point cloud completion based on generative adversarial network (TGRS 2021) [[Paper](https://ieeexplore.ieee.org/document/9528913)] [[Code](https://github.com/xuelin-chen/pcl2pcl-gan-pub)]
 
-[9] Cascaded Refinement Network for Point Cloud Completion (CVPR 2020) [[Paper](https://arxiv.org/abs/2004.03327)] [[Code](https://github.com/xiaogangw/cascaded-point-completion)]
+[7] Point cloud completion networks based on the generativeadversarial model with self-attention (Journal of China University of Metrology 2021)  [[Paper](http://qikan.cqvip.com/Qikan/Article/Detail?id=7106047629)]
 
-[10] Ecg: Edge-aware point cloud completion with graph convolution (IEEE Robotics and Automation Letters 2020) [[Paper](https://ieeexplore.ieee.org/document/9093117)] [[Code](https://github.com/paul007pl/ECG)]
+[8] Multi-feature fusion point cloud completion network (WWW 2021) [[Paper](https://link.springer.com/article/10.1007/s11280-021-00938-8)]
 
-[11] Detail Preserved Point Cloud Completion via
-Separated Feature Aggregation (ECCV 2020) [[Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700511.pdf)] [[Code](https://github.com/XLechter/Detail-Preserved-Point-Cloud-Completion-via-SFA)]
+[9] Towards point cloud completion: Point rank sampling and cross-cascade graph CNN (Neurocomputing 2021) [[Paper](https://www.sciencedirect.com/science/article/pii/S0925231221010791)]
 
-[12] SoftPoolNet: Shape Descriptor for Point Cloud
-Completion and Classification (ECCV 2020) [[Paper](https://arxiv.org/abs/2008.07358)] [[Code](https://github.com/wangyida/softpool)]
+[10] Cascaded Refinement Network for Point Cloud Completion with Self-supervision (TPAMI 2021) [[Paper](https://arxiv.org/abs/2010.08719)] [[Code](https://github.com/xiaogangw/cascaded-point-completion)]
 
-[13] Point cloud completion by learning shape priors (IROS 2020) [[Paper](https://arxiv.org/abs/2008.00394)] [[Code](https://github.com/xiaogangw/point-cloud-completion-shape-prior)]
+[11] Cycle4Completion: Unpaired Point Cloud Completion using Cycle Transformation with Missing Region Coding (CVPR 2021) [[Paper](https://yushen-liu.github.io/main/pdf/LiuYS_CVPR21_Cycle4Completion.pdf)] [[Code](https://github.com/diviswen/Cycle4Completion)]
 
-[14] Style-based Point Generator with Adversarial Rendering for
-Point Cloud Completion (CVPR 2021) [[Paper](https://arxiv.org/abs/2103.02535)] [[Code](https://github.com/microsoft/SpareNet)]
+[12] 3D Point Cloud Shape Completion GAN (Computer Science 2021) [[Paper](http://qikan.cqvip.com/Qikan/Article/Detail?id=7104298091)]
 
-[15] Cycle4Completion: Unpaired Point Cloud Completion using Cycle Transformation with Missing Region Coding (CVPR 2021) [[Paper](https://yushen-liu.github.io/main/pdf/LiuYS_CVPR21_Cycle4Completion.pdf)] [[Code](https://github.com/diviswen/Cycle4Completion)]
+[13] Multi-scale Transformer based point cloud completion network (Journal of Image and Graphics 2022) [[Paper](http://qikan.cqvip.com/Qikan/Article/Detail?id=7106801908)]
 
-[16] PMP-Net: Point Cloud Completion by Learning Multi-step Point Moving Paths (CVPR 2021) [[Paper](https://arxiv.org/abs/2012.03408)] [[Code](https://github.com/diviswen/PMP-Net)]
+- #### Others
+[1] A Papier-Mˆach´e Approach to Learning 3D Surface Generation (CVPR 2018) [[Paper](https://arxiv.org/abs/1802.05384)] [[Code](https://github.com/ThibaultGROUEIX/AtlasNet)]
 
-[17] Variational Relational Point Completion Network (CVPR 2021) [[Paper](https://arxiv.org/abs/2104.10154)] [[Code](https://github.com/paul007pl/VRCNet)]
+[2] Detail Preserved Point Cloud Completion via Separated Feature Aggregation (ECCV 2020) [[Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700511.pdf)] [[Code](https://github.com/XLechter/Detail-Preserved-Point-Cloud-Completion-via-SFA)]
 
-[18] Cascaded Refinement Network for Point Cloud Completion with Self-supervision (TPAMI 2021) [[Paper](https://arxiv.org/abs/2010.08719)] [[Code](https://github.com/xiaogangw/cascaded-point-completion)]
+[3] Skeleton-bridged point completion: From global inference to local adjustment (NIPS 2020) [[Paper](https://arxiv.org/abs/2010.07428)] 
 
-[19] PoinTr: Diverse Point Cloud Completion with Geometry-Aware Transformers (ICCV 2021) [[Paper](https://arxiv.org/abs/2108.08839)] [[Code](https://github.com/yuxumin/PoinTr)]
+[4] Vaccine-style-net: Point cloud completion in implicit continuous function space (ACM MM 2020) [[Paper](https://dl.acm.org/doi/epdf/10.1145/3394171.3413648) [[Code](https://github.com/YanWei123/Vaccine-style-net-Point-Cloud-Completion-in-Implicit-Continuous-Function-Space)]
 
-[20] SnowflakeNet: Point Cloud Completion by Snowflake Point Deconvolution with
-Skip-Transformer (ICCV 2021) [[Paper](https://arxiv.org/abs/2108.04444)] [[Code](https://github.com/AllenXiangX/SnowflakeNet)]
+[5] Unsupervised 3D shape completion through GAN inversion (CVPR 2021) [[Paper](https://arxiv.org/abs/2104.13366v1) [[Code](https://github.com/junzhezhang/shape-inversion)]
 
-[21] RFNet: Recurrent Forward Network for Dense Point Cloud Completion (ICCV 2021) [[Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Huang_RFNet_Recurrent_Forward_Network_for_Dense_Point_Cloud_Completion_ICCV_2021_paper.pdf)] 
+[6] Style-based Point Generator with Adversarial Rendering for Point Cloud Completion (CVPR 2021) [[Paper](https://arxiv.org/abs/2103.02535)] [[Code](https://github.com/microsoft/SpareNet)]
 
-[22] Multi-feature fusion point cloud completion network (WWW 2021) [[Paper](https://link.springer.com/article/10.1007/s11280-021-00938-8)]
+[7] PMP-Net: Point Cloud Completion by Learning Multi-step Point Moving Paths (CVPR 2021) [[Paper](https://arxiv.org/abs/2012.03408)] [[Code](https://github.com/diviswen/PMP-Net)]
 
-[23] Temporal Point Cloud Completion with Pose Disturbance (IEEE Robotics and Automation Letters 2022) [[Paper](https://ieeexplore.ieee.org/document/9695368)]
+[8] SnowflakeNet: Point Cloud Completion by Snowflake Point Deconvolution with Skip-Transformer (ICCV 2021) [[Paper](https://arxiv.org/abs/2108.04444)] [[Code](https://github.com/AllenXiangX/SnowflakeNet)]
 
-[24] PMP-Net++: Point Cloud Completion by Transformer-Enhanced Multi-step Point Moving Paths (TPAMI 2022) [[Paper](https://arxiv.org/pdf/2202.09507.pdf)] [[Code](https://github.com/diviswen/PMP-Net)]
+[9] PMP-Net++: Point Cloud Completion by Transformer-Enhanced Multi-step Point Moving Paths (TPAMI 2022) [[Paper](https://arxiv.org/pdf/2202.09507.pdf)] [[Code](https://github.com/diviswen/PMP-Net)]
 
-[25] Mutual Information Maximization based Similarity Operation for 3D Point Cloud Completion Network (SPL 2022) [[Paper](https://ieeexplore.ieee.org/document/9741313)] 
- 
-[26] Flow-Based Point Cloud Completion Network with Adversarial Refinement (ICASSP 2022) [[Paper](https://ieeexplore.ieee.org/document/9747024)] 
+[10] Flow-Based Point Cloud Completion Network with Adversarial Refinement (ICASSP 2022) [[Paper](https://ieeexplore.ieee.org/document/9747024)] 
 
-[27] Learning a Structured Latent Space for Unsupervised Point Cloud Completion (CVPR 2022) [[Paper](https://arxiv.org/abs/2203.15580)]
-
-[28] LAKe-Net: Topology-Aware Point Cloud Completion by Localizing Aligned Keypoints (CVPR 2022) [[Paper](https://arxiv.org/abs/2203.16771)]
-
-[29] Learning Local Displacements for Point Cloud Completion (CVPR 2022) [[Paper](https://arxiv.org/abs/2203.16600)] [[Code](https://github.com/wangyida/disp3d)]
 
 ## **Point cloud up-sampling/super resolution**
 
@@ -137,14 +175,14 @@ Skip-Transformer (ICCV 2021) [[Paper](https://arxiv.org/abs/2108.04444)] [[Code]
 
 [1] PU-GAN: A Point Cloud Upsampling Adversarial Network (ICCV 2019) [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_PU-GAN_A_Point_Cloud_Upsampling_Adversarial_Network_ICCV_2019_paper.pdf)] [[Code](https://liruihui.github.io/publication/PU-GAN/)]
 
-[2] Point cloud super-resolution based on geometric constraints (IET Computer Vision) [[Paper](https://ietresearch.onlinelibrary.wiley.com/doi/pdfdirect/10.1049/cvi2.12045)]
+[2] Point cloud super-resolution based on geometric constraints (IET Computer Vision 2020) [[Paper](https://ietresearch.onlinelibrary.wiley.com/doi/pdfdirect/10.1049/cvi2.12045)]
 
 [3] PU-Refiner: A Geometry Refiner with Adversarial Learning for Point Cloud Upsampling (ICASSP 2022) [[Paper](https://ieeexplore.ieee.org/abstract/document/9746373)] [[Code](https://github.com/liuhaoyun/PU-Refiner)]
 
 
 ## **Point cloud denoising**
 
-### Encoder-Decoder based methods
+- ### Encoder-Decoder based methods
 
 [1] 3D Shape Processing by Convolutional Denoising Autoencoders on Local Patches (WACV 2018)[[Paper](https://www.computer.org/csdl/proceedings-article/wacv/2018/488601b925/12OmNwJgAJQ)]
 
@@ -158,12 +196,12 @@ Skip-Transformer (ICCV 2021) [[Paper](https://arxiv.org/abs/2108.04444)] [[Code]
 
 [6] Reflective Noise Filtering of Large-Scale Point Cloud Using Transformer (Remote Sens 2022) [[Paper](https://www.mdpi.com/2072-4292/14/3/577)]
 
-### Others
+- ### Others
 [1] PointCleanNet: Learning to Denoise and Remove Outliers from Dense Point Clouds (ComputGraphForum 2020) [[Paper](https://arxiv.org/abs/1901.01060v2)] [[Code](https://github.com/mrakotosaon/pointcleannet)] 
 
 [2] Learning Graph-Convolutional Representations for Point Cloud Denoising (ECCV 2020) [[Paper](https://arxiv.org/abs/2007.02578v1)] [[Code](https://github.com/diegovalsesia/GPDNet)] 
 
-[3] Learning Robust Graph-Convolutional Representations for Point Cloud Denoising (IEEE JSTSP) [[Paper](https://ieeexplore.ieee.org/document/9309029)]
+[3] Learning Robust Graph-Convolutional Representations for Point Cloud Denoising (IEEE JSTSP 2021) [[Paper](https://ieeexplore.ieee.org/document/9309029)]
 
 [4] Score-Based Point Cloud Denoising (ICCV 2021) [[Paper](https://ieeexplore.ieee.org/document/9711416)] [[Code](https://github.com/luost26/score-denoise)] 
 
