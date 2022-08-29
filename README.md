@@ -51,7 +51,7 @@ Real-Time Point Cloud Shape Completion (CVPR 2019) [[Paper](https://arxiv.org/ab
 
 [9] Cascaded Refinement Network for Point Cloud Completion (CVPR 2020) [[Paper](https://arxiv.org/abs/2004.03327)] [[Code](https://github.com/xiaogangw/cascaded-point-completion)]
 
-[10] Ecg: Edge-aware point cloud completion with graph convolution (IEEE Robotics and Automation Letters) [[Paper](https://ieeexplore.ieee.org/document/9093117)] [[Code](https://github.com/paul007pl/ECG)]
+[10] Ecg: Edge-aware point cloud completion with graph convolution (IEEE Robotics and Automation Letters 2020) [[Paper](https://ieeexplore.ieee.org/document/9093117)] [[Code](https://github.com/paul007pl/ECG)]
 
 [11] Detail Preserved Point Cloud Completion via
 Separated Feature Aggregation (ECCV 2020) [[Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700511.pdf)] [[Code](https://github.com/XLechter/Detail-Preserved-Point-Cloud-Completion-via-SFA)]
@@ -71,6 +71,19 @@ Point Cloud Completion (CVPR 2021) [[Paper](https://arxiv.org/abs/2103.02535)] [
 [17] Variational Relational Point Completion Network (CVPR 2021) [[Paper](https://arxiv.org/abs/2104.10154)] [[Code](https://github.com/paul007pl/VRCNet)]
 
 [18] Cascaded Refinement Network for Point Cloud Completion with Self-supervision (TPAMI 2021) [[Paper](https://arxiv.org/abs/2010.08719)] [[Code](https://github.com/xiaogangw/cascaded-point-completion)]
+
+[19] PoinTr: Diverse Point Cloud Completion with Geometry-Aware Transformers (ICCV 2021) [[Paper](https://arxiv.org/abs/2108.08839)] [[Code](https://github.com/yuxumin/PoinTr)]
+
+[20] SnowflakeNet: Point Cloud Completion by Snowflake Point Deconvolution with
+Skip-Transformer (ICCV 2021) [[Paper](https://arxiv.org/abs/2108.04444)] [[Code](https://github.com/AllenXiangX/SnowflakeNet)]
+
+[21] RFNet: Recurrent Forward Network for Dense Point Cloud Completion (ICCV 2021) [[Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Huang_RFNet_Recurrent_Forward_Network_for_Dense_Point_Cloud_Completion_ICCV_2021_paper.pdf)] 
+
+[22] Multi-feature fusion point cloud completion network (WWW 2021) [[Paper](https://link.springer.com/article/10.1007/s11280-021-00938-8)]
+
+[23] Temporal Point Cloud Completion with Pose Disturbance (IEEE Robotics and Automation Letters 2022) [[Paper](https://ieeexplore.ieee.org/document/9695368)]
+
+[24] 
 
 ## **Point cloud up-sampling/super resolution**
 
