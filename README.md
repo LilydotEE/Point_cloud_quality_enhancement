@@ -44,6 +44,8 @@ Real-Time Point Cloud Shape Completion (CVPR 2019) [[Paper](https://arxiv.org/ab
 
 [7] Point Cloud Completion by Skip-attention Network with Hierarchical Folding (CVPR 2020) [[Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wen_Point_Cloud_Completion_by_Skip-Attention_Network_With_Hierarchical_Folding_CVPR_2020_paper.pdf)] 
 
+[8] PF-Net: Point Fractal Network for 3D Point Cloud Completion (CVPR 2020) [[Paper](https://arxiv.org/abs/2003.00410)] [[Code](https://github.com/zztianzz/PF-Net-Point-Fractal-Network)]
+
 ## **Point cloud up-sampling/super resolution**
 
 - ### CNN-based methods
