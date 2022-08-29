@@ -1,12 +1,12 @@
-# Point cloud quality enhancement
+# Point Cloud Quality Enhancement
 
 The updated papers about the quality enhancement of point clouds, including three topics:
 
-- point cloud completion 
+- Point cloud completion 
 
-- point cloud up-sampling/super resolution
+- Point cloud up-sampling/super resolution
 
-- point cloud denoising
+- Point cloud denoising
 
 
 
@@ -83,7 +83,17 @@ Skip-Transformer (ICCV 2021) [[Paper](https://arxiv.org/abs/2108.04444)] [[Code]
 
 [23] Temporal Point Cloud Completion with Pose Disturbance (IEEE Robotics and Automation Letters 2022) [[Paper](https://ieeexplore.ieee.org/document/9695368)]
 
-[24] 
+[24] PMP-Net++: Point Cloud Completion by Transformer-Enhanced Multi-step Point Moving Paths (TPAMI 2022) [[Paper](https://arxiv.org/pdf/2202.09507.pdf)] [[Code](https://github.com/diviswen/PMP-Net)]
+
+[25] Mutual Information Maximization based Similarity Operation for 3D Point Cloud Completion Network (SPL 2022) [[Paper](https://ieeexplore.ieee.org/document/9741313)] 
+ 
+[26] Flow-Based Point Cloud Completion Network with Adversarial Refinement (ICASSP 2022) [[Paper](https://ieeexplore.ieee.org/document/9747024)] 
+
+[27] Learning a Structured Latent Space for Unsupervised Point Cloud Completion (CVPR 2022) [[Paper](https://arxiv.org/abs/2203.15580)]
+
+[28] LAKe-Net: Topology-Aware Point Cloud Completion by Localizing Aligned Keypoints (CVPR 2022) [[Paper](https://arxiv.org/abs/2203.16771)]
+
+[29] Learning Local Displacements for Point Cloud Completion (CVPR 2022) [[Paper](https://arxiv.org/abs/2203.16600)] [[Code](https://github.com/wangyida/disp3d)]
 
 ## **Point cloud up-sampling/super resolution**
 
