@@ -1,12 +1,27 @@
 # Point Cloud Quality Enhancement
 
-The updated papers about the quality enhancement of point clouds, including three topics:
+This repository contains the updated papers about the quality enhancement of point clouds, including three topics:
 
 - **Point cloud completion** 
 
 - **Point cloud up-sampling/super resolution**
 
 - **Point cloud denoising**
+
+# Cite this work
+```
+@journal{Chen2022,
+  title={Survey on deep learning-based point cloud quality enhancement},
+  author={Chen, Jianwen and
+          Zhao, Lili and
+          Ren, Lancao and
+          Sun, Zhuoqun and
+          Zhang, Xinfeng and 
+          Ma, Siwei},
+  booktitle={Journal of Image and Graphics},
+  year={2022}
+}
+```
 
 ## **1. Point cloud completion**
 ### **1.1 Voxel-based methods**
