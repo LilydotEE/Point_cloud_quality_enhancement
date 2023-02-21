@@ -19,7 +19,7 @@ This repository contains the updated papers about the quality enhancement of poi
           Zhang, Xinfeng and 
           Ma, Siwei},
   booktitle={Journal of Image and Graphics},
-  year={2022}
+  year={2023}
 }
 ```
 
@@ -145,6 +145,8 @@ Real-Time Point Cloud Shape Completion (CVPR 2019) [[Paper](https://arxiv.org/ab
    [9] PMP-Net++: Point Cloud Completion by Transformer-Enhanced Multi-step Point Moving Paths (TPAMI 2022) [[Paper](https://arxiv.org/pdf/2202.09507.pdf)] [[Code](https://github.com/diviswen/PMP-Net)]
 
    [10] Flow-Based Point Cloud Completion Network with Adversarial Refinement (ICASSP 2022) [[Paper](https://ieeexplore.ieee.org/document/9747024)] 
+   
+   [11] SeedFormer: patch seeds based point cloud completion with upsample Transformer [[Paper](https://arxiv.org/abs/2207.10315)] [[Code](https://github.com/hrzhou2/seedformer)]
 
 
 ## **2. Point cloud up-sampling/super resolution**
@@ -185,6 +187,8 @@ Real-Time Point Cloud Shape Completion (CVPR 2019) [[Paper](https://arxiv.org/ab
 
 [6] PU-Flow: a Point Cloud Upsampling Network with Normalizing Flows (IEEE TVCG 2022) [[Paper](https://ieeexplore.ieee.org/document/9738472)] [[Code](https://github.com/lizhuangzi/SPU)]
 
+[7] Self-supervised arbitrary-scale point clouds upsampling via implicit neural representation[[Paper](https://arxiv.org/abs/2204.08196)] [[Code](https://github.com/xnowbzhao/sapcu)]
+
 ### **2.3 GAN-based methods**
 
 [1] PU-GAN: A Point Cloud Upsampling Adversarial Network (ICCV 2019) [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_PU-GAN_A_Point_Cloud_Upsampling_Adversarial_Network_ICCV_2019_paper.pdf)] [[Code](https://liruihui.github.io/publication/PU-GAN/)]
@@ -192,6 +196,8 @@ Real-Time Point Cloud Shape Completion (CVPR 2019) [[Paper](https://arxiv.org/ab
 [2] Point cloud super-resolution based on geometric constraints (IET Computer Vision 2020) [[Paper](https://ietresearch.onlinelibrary.wiley.com/doi/pdfdirect/10.1049/cvi2.12045)]
 
 [3] PU-Refiner: A Geometry Refiner with Adversarial Learning for Point Cloud Upsampling (ICASSP 2022) [[Paper](https://ieeexplore.ieee.org/abstract/document/9746373)] [[Code](https://github.com/liuhaoyun/PU-Refiner)]
+
+[4] Zero-Shot" point cloud upsampling (ICME2022) [[Paper](https://arxiv.org/abs/2106.13765)] [[Code](https://github.com/ky-zhou/ZSPU)]
 
 
 ## **3. Point cloud denoising**
