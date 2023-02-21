@@ -191,7 +191,7 @@ Real-Time Point Cloud Shape Completion (CVPR 2019) [[Paper](https://arxiv.org/ab
 
 [8] SPU-Net: self-supervised point cloud upsampling by coarse-to-fine Reconstruction With Self-Projection Optimization (TIP 2022) [[Paper](https://arxiv.org/abs/2204.08196)] 
 
-[9] Neural points: point cloud representation with neural fields for arbitrary upsampling (CVPR2022) [[Paper](https://arxiv.org/abs/2204.08196)] [[Code]([https://github.com/xnowbzhao/sapcu])]
+[9] Neural points: point cloud representation with neural fields for arbitrary upsampling (CVPR2022) [[Paper](https://arxiv.org/abs/2204.08196)] [[Code](https://github.com/xnowbzhao/sapcu)]
 
 [10] BIMS-PU: Bi-Directional and Multi-Scale Point Cloud Upsampling (IRAL 2022) [[Paper](https://arxiv.org/abs/2204.08196)]
 
