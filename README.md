@@ -19,6 +19,7 @@ This repository contains the updated papers about the quality enhancement of poi
           Zhang, Xinfeng and 
           Ma, Siwei},
   booktitle={Journal of Image and Graphics},
+  doi={10.11834/jig.221076},
   year={2023}
 }
 ```
