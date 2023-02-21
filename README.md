@@ -11,7 +11,7 @@ This repository contains the updated papers about the quality enhancement of poi
 # Cite this work
 ```
 @journal{Chen2023,
-  title={Survey on deep learning-based point cloud quality enhancement},
+  title={Deep learning-based quality enhancement for 3D point clouds: A survey},
   author={Chen, Jianwen and
           Zhao, Lili and
           Ren, Lancao and
@@ -22,6 +22,7 @@ This repository contains the updated papers about the quality enhancement of poi
   year={2023}
 }
 ```
+On-line Paper (Pre-print): [[Paper](http://www.cjig.cn/jig/ch/reader/view_abstract.aspx?flag=2&file_no=202210310000004&journal_id=jig)]
 
 ## **1. Point cloud completion**
 ### **1.1 Voxel-based methods**
