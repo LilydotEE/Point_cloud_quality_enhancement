@@ -10,7 +10,7 @@ This repository contains the updated papers about the quality enhancement of poi
 
 # Cite this work
 ```
-@journal{Chen2022,
+@journal{Chen2023,
   title={Survey on deep learning-based point cloud quality enhancement},
   author={Chen, Jianwen and
           Zhao, Lili and
