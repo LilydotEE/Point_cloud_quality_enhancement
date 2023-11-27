@@ -20,10 +20,13 @@ This repository contains the updated papers about the quality enhancement of poi
           Ma, Siwei},
   booktitle={Journal of Image and Graphics},
   doi={10.11834/jig.221076},
+  pages={3295--3319},
+  volume={28},
+  number={11},
   year={2023}
 }
 ```
-On-line Paper (Pre-print): [[Paper](http://www.cjig.cn/jig/ch/reader/view_abstract.aspx?flag=2&file_no=202210310000004&journal_id=jig)]
+On-line Paper: [[Paper](http://www.cjig.cn/jig/ch/reader/view_abstract.aspx?file_no=221076&flag=1)]
 
 ## **1. Point cloud completion**
 ### **1.1 Voxel-based methods**
